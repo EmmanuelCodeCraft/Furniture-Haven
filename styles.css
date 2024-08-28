@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+
+.highlight {
+  color:#e8491d;
+  font-weight:bold;
+}
+
+
+header {
+  background: #f2f2f2;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #35424a;
+  font-size: 24px;
+  font-weight: bold;
+  width:30%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  font-size: 16px;
+}
+
+/* Hero Section */
+#hero {
+  background: url("sitting-room.jpg") no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+#shop{
+  margin-left: 18px;
+}
+#images{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#images img{
+  width:24%;
+  height:auto;
+  object-fit: cover;
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#images #shop .container-1 {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cta-button {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Footer */
+footer .container {
+  background: #35424a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+ 
